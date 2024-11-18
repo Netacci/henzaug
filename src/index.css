@@ -24,4 +24,13 @@ body {
 .swiper-button-prev,
 .swiper-button-next {
   color: #f97316 !important;
+  display: block;
+}
+
+/* Hide arrows on mobile (screens smaller than 768px) */
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
 }

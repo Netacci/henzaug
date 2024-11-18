@@ -70,7 +70,7 @@ const Slider = () => {
               <h1 className='text-xl md:text-3xl font-bold mb-4 text-center'>
                 HENZAUG BUSINESS PHILOSOPHY
               </h1>
-              <p className='text-lg md:text-xl mb-8 w-full md:w-3/4 mx-auto px-2'>
+              <p className='text-lg md:text-xl mb-8 w-full md:w-3/4 mx-auto px-2 text-center'>
                 The philosophy guiding{' '}
                 <span className='text-orange-500 font-bold'>HENZAUG</span> in
                 servicing the clients is the delivery of her services in
