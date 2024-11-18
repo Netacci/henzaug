@@ -16,6 +16,15 @@ import Fourteen from '../assets/14.jpeg';
 export const projects = [
   {
     description:
+      'Hotel complex development for Austlinks Investments Limited at Asaba, Delta state',
+    completion: '100% Completed',
+    image: Fourteen,
+    value: '₦830M',
+    date: 'November 2014- April 2015',
+    client: 'Austlinks Investment Ltd.',
+  },
+  {
+    description:
       'Construction of Ten (10) numbers 3-bedrooms residential estate at Onitsha, Anambra State.',
     completion: 'Ongoing-85%',
     image: One,
@@ -32,15 +41,7 @@ export const projects = [
     date: 'October, 2009',
     client: 'Enugu State government',
   },
-  {
-    description:
-      'Hotel complex development for Austlinks Investments Limited at Asaba, Delta state',
-    completion: '100% Completed',
-    image: Fourteen,
-    value: '₦830M',
-    date: 'November 2014- April 2015',
-    client: 'Austlinks Investment Ltd.',
-  },
+
   {
     description:
       '3 Kilometers Rural road development for Delta state government',

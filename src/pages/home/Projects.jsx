@@ -57,7 +57,7 @@ const Projects = () => {
             className='bg-orange-500 hover:bg-orange-600'
             onClick={() => navigate('/projects')}
           >
-            View Projects
+            View All Projects
             <ChevronRight className='ml-2 h-4 w-4' />
           </Button>
         </div>
