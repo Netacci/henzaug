@@ -1,6 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import { Button } from '@/components/ui/button';
+// import { Button } from '@/components/ui/button';
 import LOGO from '../../assets/loggg.svg';
 
 const Navbar = () => {
@@ -18,12 +18,6 @@ const Navbar = () => {
         <div className='flex justify-between items-center h-20'>
           <img src={LOGO} alt='Logo' className='h-[50px] md:h-[70px]' />
 
-          {/* <div className='flex items-center'>
-            <span className='text-2xl font-bold text-navy-900'>
-              <span className='text-orange-500'>H</span>enzaug
-            </span>
-          </div> */}
-
           {/* Desktop Navigation */}
           <div className='hidden md:flex items-center space-x-8'>
             {navList.map((item, index) => (
@@ -36,9 +30,9 @@ const Navbar = () => {
               </a>
             ))}
 
-            <Button className='bg-orange-500 hover:bg-orange-600 text-white px-6'>
+            {/* <Button className='bg-orange-500 hover:bg-orange-600 text-white px-6'>
               Get A Quote
-            </Button>
+            </Button> */}
           </div>
 
           {/* Mobile Menu Button */}

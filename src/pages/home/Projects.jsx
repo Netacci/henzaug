@@ -29,26 +29,6 @@ const Projects = () => {
           variants={sectionVariants}
         >
           {projectView.map((project, index) => (
-            // <Card
-            //   key={index}
-            //   className='hover:shadow-lg transition-shadow duration-300'
-            // >
-            //   <img
-            //     src={project.image}
-            //     alt={project.title}
-            //     className='w-full h-48 object-cover'
-            //   />
-            //   <CardHeader>
-            //     <CardTitle>{project.title}</CardTitle>
-            //     <CardDescription>
-            //       Completed: {project.completion}
-            //     </CardDescription>
-            //   </CardHeader>
-            //   <CardContent>
-            //     <p>{project.description}</p>
-            //   </CardContent>
-            // </Card>
-
             <ProjectCard key={index} {...project} />
           ))}
         </motion.div>
