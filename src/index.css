@@ -26,7 +26,14 @@ body {
   color: #f97316 !important;
   display: block;
 }
+.expanded {
+  height: auto;
+}
 
+.collapsed {
+  overflow: hidden;
+  height: 350px;
+}
 /* Hide arrows on mobile (screens smaller than 768px) */
 @media (max-width: 768px) {
   .swiper-button-next,

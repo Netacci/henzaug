@@ -12,6 +12,8 @@ import Eleven from '../assets/11.jpg';
 import Twelve from '../assets/12.jpg';
 import Thirteen from '../assets/13.jpg';
 import Fourteen from '../assets/14.jpeg';
+import Eighteen from '../assets/18.jpeg';
+import Nineteen from '../assets/19.jpeg';
 
 export const projects = [
   {
@@ -24,20 +26,19 @@ export const projects = [
     client: 'Austlinks Investment Ltd.',
   },
   {
-    description:
-      'Construction of Ten (10) numbers 3-bedrooms residential estate at Onitsha, Anambra State.',
-    completion: 'Ongoing-85%',
+    description: 'Construction of hotel extension in Asaba',
+    completion: '100% Completed',
     image: One,
     value: '₦580M',
     date: 'April 2022',
-    client: 'Chief Michael Obiemeka',
+    client: 'Austlinks Investment Ltd.',
   },
   {
     description:
       'Residential Estate development for Enugu State government in Enugu',
     completion: '100% Completed',
     image: Thirteen,
-    value: '₦1.4b',
+    value: '₦1.4B',
     date: 'October, 2009',
     client: 'Enugu State government',
   },
@@ -47,17 +48,17 @@ export const projects = [
       '3 Kilometers Rural road development for Delta state government',
     completion: '100% Completed',
     image: Eleven,
-    value: '₦980m',
+    value: '₦980M',
     date: 'October, 2009',
     client: 'Delta State Govt.',
   },
   {
     description: ' Private residential development in Abia state',
-    completion: '100% Completed',
-    image: Five,
-    value: '₦85m',
+    completion: 'Ongoing',
+    image: Eighteen,
+    value: '₦85M',
     date: 'October, 2009',
-    client: 'N/A',
+    client: 'Copen services Ltd',
   },
   {
     description: 'Construction of Office Block GRA Port Harcourt',
@@ -65,7 +66,7 @@ export const projects = [
     image: Twelve,
     value: '₦360M',
     date: 'January 2022',
-    client: 'Alpha Integrated Services',
+    client: 'Sirvic Holdings Ltd ',
   },
   {
     description:
@@ -145,5 +146,14 @@ export const projects = [
     value: '₦12M',
     date: 'October, 2009',
     client: 'Ministry of Energy Delta State',
+  },
+  {
+    description:
+      'National Universities Hostel project. Which involves development of 5,000 rooms hostel accommodation for selected Nigerian universities',
+    completion: 'Tender Process on',
+    image: Nineteen,
+    value: '$81M',
+    date: 'October, 2009',
+    client: ' Nayopet Ltd/Gte',
   },
 ];
